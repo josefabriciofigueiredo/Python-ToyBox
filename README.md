@@ -1,14 +1,16 @@
 # Python-ToyBox
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/josefabriciofigueiredo/Tkinter-Projects/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/josefabriciofigueiredo/Python-ToyBox/blob/main/LICENSE)
 
 ## - <img src="Prj_BaixarVideo/imgs/icone.ico" width="20px"> Baixar Vídeos & Áudios
 
 ### Sobre
-Projeto educacional que visa facilitar o download de vídeos por meio de um link específico.
+Trata-se de um projeto educacional que efetua o download de vídeos e áudios através de um ou mais links fornecidos. Utilizando a tecnologia de threads em Python, observou-se um aumento significativo de 57,14% na eficiência em comparação com a execução sem o uso de threads. Além disso, foram implementados Type Hinting para proporcionar uma leitura mais clara e facilitar a depuração do código.
 
 ### Tecnologias utilizadas
 - tkinter
 - pytube
+- threading
+- typing
 
 ### Imagem do Projeto
 <img src="Prj_BaixarVideo/imgs/Baixar Video.png" width="60%">
@@ -36,4 +38,4 @@ Este é um projeto educacional projetado para simplificar o processo de seleçã
 
 ### Como utilizar?
 1. Crie um chatbot no Telegram
-2. Copie e Cole na função main() do arquivo: Prj_BotTelegram/bot.py
+2. Copie e Cole a chave/token na função main() do arquivo: Prj_BotTelegram/bot.py
